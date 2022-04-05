@@ -1,0 +1,31 @@
+.cover__bacground {     
+    min-height: 740px;
+    min-width: 1184px; 
+    background-image: url("../../../images/cover-trains.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    z-index: 1;  
+    position: relative;       
+}
+
+@media screen and (max-width: 1280px) {
+    .cover__bacground{
+        min-height: 640px;
+        min-width: 1024px;
+      }
+  }  
+  
+  @media screen and (max-width: 1024px) {
+    .cover__bacground{
+        min-height: 480px;
+        min-width: 768px;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover__bacground{
+        min-height: 200px;
+        min-width: 320px;
+      }
+  }   
