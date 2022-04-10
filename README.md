@@ -18,3 +18,7 @@
 
 - скачать или склонировать репозитрий,
 - открыть файл index.html.
+
+## Ссылка на gh-pages:
+
+https://afonina-ola.github.io/russian-travel/
