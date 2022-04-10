@@ -1,22 +1,22 @@
 .header__lang-link_En {
-    text-decoration: none;
-    margin-top: 46px;
-    margin-right: 48px; 
-    width: 29px; 
-    height: 28px;
-  }
-  
-  @media screen and (max-width: 1024px) {
-    .header__lang-link_En {
-      margin-right: 24px;
-      }
-  } 
+  text-decoration: none;
+  margin-top: 46px;
+  margin-right: 48px;
+  width: 29px;
+  height: 28px;
+}
 
-  @media screen and (max-width: 768px) {
-    .header__lang-link_En {
-      margin-top: 30px;
-      margin-right: 16px; 
-      width: 22px; 
-      height: 20px;
-      }
-  } 
+@media screen and (max-width: 1023px) {
+  .header__lang-link_En {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link_En {
+    margin-top: 30px;
+    margin-right: 16px;
+    width: 22px;
+    height: 20px;
+  }
+}
